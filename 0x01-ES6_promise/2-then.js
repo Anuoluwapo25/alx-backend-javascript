@@ -1,4 +1,4 @@
-function handleResponseFromAPI(promise) {
+export default function handleResponseFromAPI(promise) {
   return promise
     .then(() => (
       {	    
@@ -11,4 +11,3 @@ function handleResponseFromAPI(promise) {
       console.log('Got a response from the API');
     });
 }
-export default  handleResponseFromAPI;
